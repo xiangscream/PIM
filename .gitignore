@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local model/data caches
+.cache/
+models/
+checkpoints/
+datasets/
+outputs/
+
+# Experiment-local artifacts
+.local/
+runs/
+wandb/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
